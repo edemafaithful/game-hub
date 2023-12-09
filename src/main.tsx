@@ -4,10 +4,13 @@ import App from './App.tsx'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'tailwindcss/tailwind.css'
 import './index.css'
+import { ChakraProvider } from '@chakra-ui/react'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <ChakraProvider>
+      <App />
+    </ChakraProvider>
   </React.StrictMode>,
 )
