@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+form {
+    width: 100%;
+    align-content: center;
+}
